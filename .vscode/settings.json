@@ -1,0 +1,47 @@
+{
+  "editor.fontSize": 16.5,
+  "editor.minimap.enabled": false,
+  "bracket-pair-colorizer-2.depreciation-notice": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "prettier.singleQuote": true,
+  "typescript.preferences.importModuleSpecifier": "relative",
+  "volar.codeLens.pugTools": false,
+  "volar.codeLens.scriptSetupTools": true,
+  "volar.completion.preferredTagNameCase": "pascal",
+  "volar.takeOverMode.enabled": true,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  "errorLens.excludeBySource": [
+    "cSpell",
+    "Grammarly",
+    "eslint"
+  ],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "typescript",
+    "javascriptreact",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "json5"
+  ],
+  "cSpell.allowCompoundWords": true,
+  "cSpell.language": "en,en-US",
+  "i18n-ally.autoDetection": false,
+  "i18n-ally.displayLanguage": "en",
+  "i18n-ally.ignoredLocales": [],
+}
