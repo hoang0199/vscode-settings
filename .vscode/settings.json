@@ -41,6 +41,9 @@
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
+  "cSpell.ignoreRegExpList": [
+	"/from\\s+(['\"]).*\\1/"
+  ],
   "i18n-ally.autoDetection": false,
   "i18n-ally.displayLanguage": "en",
   "i18n-ally.ignoredLocales": [],
