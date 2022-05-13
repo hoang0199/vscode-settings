@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 16.5,
+  "editor.fontSize": 13.77777,
   "editor.minimap.enabled": false,
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -41,10 +41,17 @@
   ],
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
-  "cSpell.ignoreRegExpList": [
-	"/from\\s+(['\"]).*\\1/"
-  ],
   "i18n-ally.autoDetection": false,
+  "cSpell.ignoreRegExpList": [
+    "/from\\s+(['\"]).*\\1/"
+    ],
   "i18n-ally.displayLanguage": "en",
   "i18n-ally.ignoredLocales": [],
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
+  "workbench.startupEditor": "none",
 }
