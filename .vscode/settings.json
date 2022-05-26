@@ -1,8 +1,13 @@
 {
-  "editor.fontSize": 13.77777,
+  "editor.fontSize": 12.77,
   "editor.minimap.enabled": false,
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.guides.bracketPairs": "active",
+  "editor.inlineSuggest.enabled": true,
+  "editor.glyphMargin": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true,
@@ -12,18 +17,10 @@
   "typescript.preferences.quoteStyle": "single",
   "prettier.singleQuote": true,
   "typescript.preferences.importModuleSpecifier": "relative",
-  "volar.codeLens.pugTools": false,
-  "volar.codeLens.scriptSetupTools": true,
-  "volar.completion.preferredTagNameCase": "pascal",
-  "volar.takeOverMode.enabled": true,
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.simpleDialog.enable": true,
-  "errorLens.excludeBySource": [
-    "cSpell",
-    "Grammarly",
-    "eslint"
-  ],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
   "eslint.codeAction.showDocumentation": {
     "enable": true
   },
@@ -42,9 +39,7 @@
   "cSpell.allowCompoundWords": true,
   "cSpell.language": "en,en-US",
   "i18n-ally.autoDetection": false,
-  "cSpell.ignoreRegExpList": [
-    "/from\\s+(['\"]).*\\1/"
-    ],
+  "cSpell.ignoreRegExpList": ["/from\\s+(['\"]).*\\1/"],
   "i18n-ally.displayLanguage": "en",
   "i18n-ally.ignoredLocales": [],
   "github.copilot.enable": {
@@ -54,4 +49,33 @@
     "yaml": false
   },
   "workbench.startupEditor": "none",
+  "eslint.quiet": true,
+  "errorLens.enabledDiagnosticLevels": [
+    "warning",
+    "error"
+  ],
+  "eslint.format.enable": true,
+  "window.autoDetectColorScheme": true,
+  "window.dialogStyle": "custom",
+  "window.nativeTabs": true,
+  "window.titleBarStyle": "custom",
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn.lock": true
+  },
+  "svg.preview.mode": "svg",
 }
