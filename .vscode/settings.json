@@ -1,5 +1,5 @@
 {
-  "editor.fontSize": 12.77,
+  "editor.fontSize": 14.5,
   "editor.minimap.enabled": false,
   "bracket-pair-colorizer-2.depreciation-notice": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -78,4 +78,15 @@
     "**/yarn.lock": true
   },
   "svg.preview.mode": "svg",
+  "terminal.integrated.automationProfile.osx": {
+    "path": "/bin/zsh"
+  },
+  // Visuals
+  "workbench.colorTheme": "Vitesse Light Soft",
+  "workbench.preferredDarkColorTheme": "Vitesse Dark Soft",
+  "workbench.preferredLightColorTheme": "Vitesse Light Soft",
+  "workbench.productIconTheme": "icons-carbon",
+  "workbench.iconTheme": "file-icons",
+  "editor.fontFamily": "Droid Sans Mono, Fira Code, monospace",
+  "editor.fontLigatures": "'ss01', 'ss02', 'ss03', 'ss06', 'zero'",
 }
